@@ -93,6 +93,11 @@ document.addEventListener('click', function (e) {
   }
 });
 
+window.onload(function(){
+  alert('hello')
+
+})
+
 
 document.addEventListener("DOMContentLoaded", function () {
   const menuIcon = document.querySelector(".menu-icon");
