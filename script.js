@@ -1,3 +1,9 @@
+// if(localStorage.getItem('count')==null)
+//   {
+//     window.location.href='index.html'
+//     localStorage.setItem("count","1")
+//   }
+
 const searchData = [
   "Avenger_End-Game",
   "Ant-Man",
@@ -93,10 +99,10 @@ document.addEventListener('click', function (e) {
   }
 });
 
-window.onload(function(){
-  alert('hello')
-
-})
+function Intro(){
+  
+    
+}
 
 
 document.addEventListener("DOMContentLoaded", function () {
