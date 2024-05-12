@@ -1,0 +1,458 @@
+
+
+
+    *{
+        padding: 0%;
+        margin: 0%;
+        color: white;
+    }
+
+    body{
+        background-color: black;
+        color: white;
+    }
+
+    body.dark-mode{
+        background-color: white;
+        color: black;
+    }
+
+
+
+    .logo{
+        position: absolute;
+        height: 100px;
+        left: 25px;
+        padding: 9px 20px 0px 0px;
+    }
+
+    .menu_bar{
+        position: fixed;
+        backdrop-filter: blur(8px);
+        /* background-color: rgb(255,255,255,0.5); */
+        padding: 5px 0px 20px 0px;
+        width: 100%;
+        height: 85px;
+        z-index: 1;
+    }
+
+    .search_bar{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 22px;
+        margin-left: 770px;
+        background-color: rgba(19, 185, 222, 0);
+        border-style: none;
+        border: none;
+        outline:none;
+        border-radius: 20px;
+        padding-left: 50px;
+        font-size: 25px;
+        color: white;
+        font-weight: 1000000;
+
+    }
+
+    #searchResults{    
+        position: absolute;
+        margin-left: -37px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -18px;
+    }
+
+    [type="search"]::-webkit-search-cancel-button{
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    .s:hover .search_bar{
+        background-color: rgba(255, 255, 255, 0.2);
+
+        width: 435px;
+        transition: 0.7s;
+
+    }
+
+    .dropdown{
+        padding-left: 37px;
+        padding-left: 37px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 76px;
+    margin-left: 773px;
+    width: 414px;
+    background-color: black;
+    display: none;
+    opacity: 0.7;
+    }
+
+    i{
+        position: absolute;
+        color: white;
+        left: 782.5px;
+        top: 38px;
+    }
+
+
+    .main_body{
+        position: relative;
+        /* display: inline-block; */
+        /* background-color: rgb(4, 4, 4); */
+        height: 100%;
+        width: 100%;
+        padding-top: 120px;
+    }
+
+
+
+    li{
+        padding: 10px 20px;
+        font-size: 23px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        float: left;
+    }
+
+    li:hover{
+        color: rgb(247, 47, 47);
+        transform: scale(1.1);
+
+    }
+
+
+
+
+    a{
+        color: white;
+        text-decoration: none;
+
+    }
+
+    a:hover{
+        color: red;
+        
+    }
+
+
+    ul{
+        list-style-type: none;
+    margin-left: 100px;
+    padding: 22px 0px 0px 20px;
+    overflow: hidden;
+    
+        
+    }
+
+
+
+    .AU{
+        position: absolute;
+        margin-top: 12px;
+        font-size: 25px;
+        color: white;
+        margin-left: 1125px;
+        background-color: rgba(0,0,0,0);
+        
+    }
+
+    .AU:hover{
+        color: red;
+        transform: scale(1.1);
+        
+    }
+
+
+
+    .CU{
+        position: absolute;
+        margin-top: 12px;
+        font-size: 25px;
+        color: white;
+        margin-left: 1264px;
+        background-color: rgba(0,0,0,0);
+        
+    }
+
+    .CU:hover{
+        color: red;
+        transform: scale(1.1);
+        
+    }
+
+
+
+    .title{
+        
+        margin-left: 40px;
+        font-size: 28px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin-left: 62px;
+    }
+
+    .movie_logo{
+        position: relative;
+        margin-left: -17px;
+        padding: 20px 0px 20px 14px ;
+        display: flex;
+        overflow-x: auto;
+        
+    }
+
+    .movie_l{
+        height: 270px;
+        width: 180px;
+    
+
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+    .movie_l:hover{
+        transform: scale(1.1); 
+
+    }
+
+    .movies{
+        background-color: blue;
+        top: 500px;
+    }
+
+    .hidden-icon{
+        display: none;
+    }
+
+    .hidden-menu{
+        display: none;
+    }
+  
+  
+  
+ 
+  @media (max-width: 768px) {
+    li{
+        padding-left: 0px;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .logo{
+        position: relative;
+        height: 60px;
+        left: 8px;
+        top: -10px;
+      
+    }
+
+    ul{
+        position:absolute;
+        list-style-type: none;
+        margin-left: 13px;
+        padding: 22px 0px 0px 20px;
+        top: 25px;  
+    }
+
+    .menu_bar{
+        position: fixed;
+        backdrop-filter: blur(8px);
+        padding: 5px 0px 20px 0px;
+        width: 100%;
+        height: 50px;
+        z-index: 1;
+    }
+
+  
+
+    i{
+        position: absolute;
+        color: white;
+        left: 72px;
+        top: 16px;
+        font-size: 21px !important;
+        z-index: 10000;
+    }
+
+    .search_bar {
+        position: absolute;
+        width: 40px;
+        height: 32px;
+        margin-top: 5px;
+        margin-left: 62px;
+        background-color: rgba(19, 185, 222, 0);
+        border-style: none;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        padding-left: 35px;
+        font-size: 21px;
+        color: white;
+        font-weight: 1000000;
+        z-index: 1000000;
+    }
+
+    .i:hover .search_bar{
+        background-color: rgba(255, 255, 255, 0.2);
+
+        width: 200px !important;
+        transition: 0.7s;
+
+    }
+
+    #searchResults{    
+        position: absolute;
+        margin-left: -37px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -18px;
+    }
+
+    .main_body{
+        position: relative;
+        /* display: inline-block; */
+        /* background-color: rgb(4, 4, 4); */
+        height: 100%;
+        width: 100%;
+        padding-top: 100px;
+      
+
+    }
+
+    .title{
+
+        margin-left: 30px;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+    
+    }
+
+    .movie_logo{
+        position: relative;
+        padding: 15px 0px 5px 0px ;
+        display: flex;
+        overflow-x: auto;
+        
+        
+        
+    }
+
+    .movie_l{
+        height: 150px;
+        width: 100px;
+    
+
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+    .hidden-icon{
+        position: absolute;
+        display: block;
+        background-color: rgba(0,0,0,0);
+        height: 50px;
+        width: 50px;
+        z-index: 100;
+        right: -2vh;
+        line-height: 5px;
+        top: 10px;
+        font-size: 20px;
+
+    }
+
+    .AU{
+        display: none;
+
+    }
+
+    .CU{
+        display: none;
+    }
+
+    .AU-hidden{
+        position: absolute;
+        font-size: 10px;
+        margin-left: -25px;
+        top: 60px;
+        color: white;
+        display: none;
+    }
+
+    .CU-hidden{
+        position: absolute;
+        font-size: 10px;
+        margin-left: -25px;
+        top: 40px;
+        color: white;
+        display: none;
+    }
+
+    .hidden-menu{
+        display: block;
+      
+    }
+
+    .hidden-icon:hover .AU-hidden {
+        top: 3px;
+        display: block;
+        position: relative;
+        left: -82px;
+    }
+    .hidden-icon:hover .CU-hidden{
+        top: -3px;
+        display: block;
+        position: relative;
+        left: -30px;
+        width: 45px;
+    }
+
+    #searchResults{    
+        position: absolute;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        background-color: black;
+        width: 163px;
+        
+    }
+
+    [type="search"]::-webkit-search-cancel-button{
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    .dropdown{
+        padding-left: 37px;
+        padding-left: 37px;
+    
+    position: absolute;
+    margin-top:0px;
+    margin-left: 64px;
+    width: 514px;
+    background-color: black;
+    display: none;
+    opacity: 1 !important; 
+    z-index: 10000;
+   
+    }
+
+    .s:hover .search_bar{
+        background-color: rgba(255, 255, 255, 0.1);
+
+        width: 200px;
+        transition: 0.7s;
+
+    }
+  }
+  
+
+
+
+

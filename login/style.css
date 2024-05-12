@@ -1,0 +1,375 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    
+}
+
+img{
+    width: 1536px;
+    height: 735px;
+    opacity: 0.7;
+}
+
+.container{
+    position: absolute;
+}
+
+.inner_logo{
+    position: absolute;
+    height: 80px;
+    width: 130px;
+    padding: 10px 0px 0px 60px;
+    background-color: rgba(0, 0, 0, 0.15);
+
+}
+
+.login_page{
+    position: absolute;
+    left: 590px;
+    top: 155px;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 10;
+}
+
+.sign_in{
+    position: absolute;
+    background-color: aliceblue;
+    color: aliceblue;
+    font-weight: 500;
+    top: 70px;
+    left: 55px;
+    height: 43px;
+    width: 131px;
+    font-size: 38px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+
+
+.User_Name{
+    position: absolute;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    height: 45px;
+    width: 270px;
+    left: 55px;
+    top: 165px;
+    border-bottom: 2px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    padding: 0px 8px;
+    z-index: 1000;
+    outline: none;
+}
+
+.User_Name:focus{
+    outline: none;
+}
+.password{
+    position: absolute;
+    color: white;
+    background-color:  rgb(12,12,12);
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    height: 45px;
+    width: 270px;
+    left: 55px;
+    top: 217px;
+    border-bottom: 2px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    padding: 0px 8px;
+    z-index: 1000;
+}
+
+.password:focus{
+    outline: none;
+}
+
+.button{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    color: rgba(240, 248, 255, 0.921);
+    font-size: 20px;
+    font-weight: 500;
+    top: 300px;
+    left: 150px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    border-radius: 18px;
+}
+
+.sign_in_b{
+    position: absolute;
+    font-size: 14px;
+    color: aliceblue;
+    top: 350px;
+    left: 133px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.sign_in_b>a{
+    text-decoration: none;
+}
+
+a{
+    color: blue;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0);
+    margin-top: 273px;
+    margin-left: 62px;
+}
+
+/* glowing button  */
+
+.login_page>a{
+    position: relative;
+    display: inline-block;
+    padding: 11px 13px;
+    margin: 40px 0;
+    top: 56px;
+    left: 56px;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+   
+}
+.login_page>a:hover{
+    background: red;
+    color: #050801;
+    box-shadow: 0 0 5px red,
+                0 0 25px red,
+                0 0 50px red,
+                0 0 200px red;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(2){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,red);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+a span:nth-child(1){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,red);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,red);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,red);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+
+/* end of glowing button  */
+
+
+@media (max-width: 768px) {
+
+
+    img{
+        width: 320px;
+        height: 648px;
+        opacity: 0.7;
+    }
+
+    a{
+        top: 6px;
+        left: 20px;
+    }
+
+    .inner_logo{
+        position: absolute;
+        height: 80px;
+        width: 130px;
+        filter:saturate(100);
+        left: -10px;
+        z-index: 100;
+        padding: 10px 0px 0px 10px;
+        background-color: rgba(0, 0, 0, 0.15);
+    
+    }
+
+    .login_page{
+        position: absolute;
+        left: 0px;
+        top: 155px;
+        height: 350px;
+        width: 320px;
+        background-color: rgba(0, 0, 0, 0.45);
+        z-index: 10;
+        
+        
+    }
+
+    .sign_in{
+        position: absolute;
+        background-color: aliceblue;
+        color: aliceblue;
+        font-weight: 500;
+        top: 30px;
+        
+        left: 115px;
+        height: 43px;
+        width: 131px;
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0);
+    
+    }
+
+    .User_Name{
+        position: absolute;
+        color: white;
+        background-color: rgba(0,0,0,0.5);
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        height: 45px;
+        width: 270px;
+        left: 18px;
+        top: 105px;
+        border-bottom: 2px solid red;
+        padding: 0px 8px;
+        z-index: 1000;
+        border-radius: 10px;
+    }
+
+    input::placeholder{
+        color: white;
+    }
+
+    .password{
+        position: absolute;
+        color: white;
+        background-color: rgba(0,0,0,0.5);
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        height: 45px;
+        width: 270px;
+        left: 18px;
+        top: 165px;
+        border-bottom: 2px solid red;
+        padding: 0px 8px;
+        z-index: 1000;
+        border-radius: 10px;
+    }
+
+    .button{
+        position: absolute;
+        height: 40px;
+        width: 100px;
+        color: rgba(240, 248, 255, 0.921);
+        font-size: 20px;
+        font-weight: 500;
+        top: 230px;
+        left: 113px;
+        border: none;
+        background-color: rgb(255, 0, 0);
+        border-radius: 18px;
+    }
+
+    
+    .sign_in_b{
+        position: absolute;
+        font-size: 14px;
+        color: aliceblue;
+        top: 290px;
+        left: 96px;
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+
+    .error{
+        color: red;
+        font-size: 14;
+    }
+
+    .login_page>a{
+        top: 9px;
+        left: 98px;
+    }
+}

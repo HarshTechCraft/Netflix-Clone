@@ -1,0 +1,645 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+
+
+.manu_bar{
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    display: inline-block;
+    width: 115px;
+    height: 100vh;
+    z-index: 1;
+       
+}
+
+.item_logo{
+
+    display: none;
+    margin-top: 80px;
+}
+
+
+.item_logo i{
+    color: white;
+    margin-top: 100px;
+    margin-left: 40px;
+
+}
+
+.upper_side{
+    position: relative;
+    display: inline-block;
+    margin-left: -55px;
+
+    /* float: left; */
+    
+}
+
+
+.image{
+    
+    position: absolute;
+    height: 528px;
+    width: 1404px;
+    margin-left: 115px;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(2px); */
+    
+    
+}
+
+.details{
+    z-index: 10;
+    left: 115px;
+    position: absolute;
+    height: 530px;
+    width: 434px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo{
+    position: absolute;
+    height: 100px;
+    left: 1250px;
+    padding: 9px 20px 0px 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.back{
+    position: relative;
+    font-size: 25px !important;
+    left: 50px;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.back1{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.details_title1{
+    position: relative;
+    font-weight: 800;
+    font-style: inherit;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 60px;
+    /* opacity: 0.6; */
+    animation: details_title1 1s ease-in-out infinite alternate;
+
+}
+
+.details_title2{
+    position: relative;
+    font-style: inherit;
+    margin-top: 12px;
+    padding: 0 10px 0 10px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: left;
+    font-size: 18px;
+}
+
+.button{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    
+    
+}
+
+.button i{
+    position: absolute;
+    z-index: 1;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 98px;
+    margin-top: 10px;
+    border: none;
+    border-style:none;
+    overflow: hidden;
+}
+
+.info i{
+    position: absolute;
+
+    color: red;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 120px;
+    margin-top: 89px;
+    border: none;
+    border-style:none;
+    display: inline;
+}
+
+.startButton {
+    position: absolute;
+    height: 41px;
+    width: 100px;
+    margin-left: 80px;
+    /* margin-top: 78px; */
+    color: black;
+    border: none;
+    background-color: white;
+    border-radius: 7px;
+    font-weight: 900;
+    font-family: math;
+
+
+}
+
+
+.startButton span {
+    position: relative;
+    top: 1.5px;
+    left: 15px;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.startButton:hover{
+    box-shadow: 0px 0px 20px aqua;
+    background-color: black;
+    color: white;
+}
+
+.button:hover .play{
+    
+    color: white;
+}
+
+
+
+.play:hover .startButton{
+    box-shadow: 0px 0px 20px aqua;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.info{
+    position: absolute;
+    /* margin-top: 28px; */
+    margin-left: 200px;
+    border-radius: 5px;
+    height: 40px;
+    width: 105px;
+    background-color: white;
+}
+
+.info:hover{
+    /* box-shadow: 0px 0px 20px aqua; */
+    background-color: black;
+    box-shadow: 0px 0px 20px aqua;
+
+    
+}
+
+.info:hover .more_info{
+    color: white;
+}
+
+
+.more_info{
+    position: absolute;
+    margin-left: 6px;
+    margin-top: 8px;
+    font-weight: 1000;
+    font-size: 22px;
+    font-style: math;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    text-decoration: none;
+}
+
+.movies{
+    margin-top: 540px;
+}
+
+.movie_logo{
+    
+    position: relative;
+    margin-left: 135px;
+    padding: 20px 0px 20px 10px;
+
+    
+}
+
+.movie_l{
+    height: 270px;
+    width: 186px;
+   
+
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.movie_l:hover{
+    transform: scale(1.105); 
+
+}
+
+
+
+
+#videoPlayer{
+    position: absolute;
+    height: 557px;
+    width: 989px;
+    top: auto;
+    z-index: 1;
+    margin-left: 530px;
+}
+
+#closeButton{
+    display: block;
+    background-color: red;
+    color: black;
+    height: 33px;
+    margin-left: 1410px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+.end_game{
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 200px blue ;
+
+
+}
+
+
+
+
+
+/* .button{
+    margin-top: 22px;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 105px;
+    background-color: white;
+    font-weight: 600;
+    font-style:inherit;
+} */
+
+.play{
+    position: absolute;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-size: 20px !important;
+}
+
+
+
+
+
+.main_body{
+    position: relative;
+    /* display: inline-block; */
+    background-color: rgb(4, 4, 4);
+    height: 100%;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.title{
+    
+    margin-left: 40px;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    z-index: 1;
+}
+
+
+
+/* saved movies  */
+
+.save{
+    position: absolute;
+    left: -1000px;
+}
+
+.save-button{
+    
+    position: relative;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    left: 323px;
+    /* top: 198px; */
+    height: 40px;
+    width: 35px;
+}
+
+.save-i{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 25px;
+    
+}
+
+.save-i2{
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    font-size: 22px;
+    background-color: rgba(0,0,0,0);
+    display: none;
+}
+
+.save-button:hover{ 
+
+        box-shadow: 0px 0px 20px aqua;
+        background-color: black; 
+        box-shadow: 0px 0px 20px aqua;
+        color: white;
+        font-weight: 500;
+    
+        
+}
+
+.save-button-class{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.button-group{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: 300px;
+    width: 0px;
+}
+
+
+#searchbar1{
+    background-color: rgba(255,255,255,0.5);
+    width: 420px;
+    position: absolute;
+    left: 120px;
+    top: 175px;
+    height: 40px;
+    color: black;
+    z-index: 100000;
+    display: none;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+#mybutton.clicked{
+    display: none;
+}
+
+.unsave{
+    position: absolute;
+    left: -192px;
+}
+
+#myButton:disabled{
+    color: black;
+}
+#myButton:disabled:hover{
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+
+    .manu_bar{
+        width: 30px;
+        height: 100vh;
+    }
+
+       
+    .image {
+        position: absolute;
+        height: 300px;
+        width: 40vh;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+
+        margin-left: 86px;
+        box-shadow: 2px 3px 5px aqua
+        /* filter: blur(8px); */
+        /* -webkit-filter: blur(2px); */
+        }
+        
+        
+    
+    
+    .item_logo i{
+        color: white;
+        margin-top: 100px;
+        margin-left: 15px;
+        font-size: 20px !important;
+    }
+
+    .details{
+        width: 0px;
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+
+    .details_title1{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+
+    .back{
+        position: relative;
+        font-size: 22px !important;
+        left: -11px;
+        top: 32px;
+    
+    }
+
+    .logo{
+        position: absolute;
+        height: 65px;
+        width: 64px;
+        left: 176px;
+        top: 10px;
+    
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .movies{
+        margin-top: 340px;
+        margin-left: -63px;
+    }
+
+    .movie_l{
+        height: 170px;
+        width: 100px;
+        
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+    .upper_side{
+        position: relative;
+        display: inline-block;
+        margin-left: -55px;
+        width: 375px;
+        /* float: left; */
+        
+    }
+
+    .startButton {
+        position: absolute;
+        height: 35px;
+        width: 80px;
+        margin-left: -5px;
+        margin-top: -29.5px;
+        color: white;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 7px;
+        filter: blur(10);
+        font-weight: 1;
+        font-family: math;
+        border: 2px solid white;
+        
+    
+    
+    }
+
+    .info {
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 90px;
+        border-radius: 5px;
+        height: 29px;
+        width: 75px;
+        padding-top: 3px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 2px solid white;
+        
+    }
+
+    .startButton span {
+        position: relative;
+        top: 1.5px;
+        left: 10px;
+        font-size: 22px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .more_info {
+        position: absolute;
+        margin-left: -3px;
+        margin-top: 1px;
+        font-weight: 1;
+        font-size: 22px;
+        height: 30px;
+        font-family: math;
+        text-align: center;
+        overflow: hidden;
+        color: white;
+        text-decoration: none;
+        display: -webkit-box;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 1px;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+    }
+
+    .save-button {
+        position: relative;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        border: none;
+        left: 180px;
+        top: -31px;
+        /* top: 198px; */
+        height: 37px;
+        border: 2px solid white;
+        width: 35px;
+    }
+
+    .movie_logo{
+        display: flex;
+        overflow-x: auto;
+        position: relative;
+        margin-left: 135px;
+        padding: 20px 0px 20px 10px;
+    
+        
+    }
+
+    .button i {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        margin-left: 3pt;
+        margin-top: -22px;
+        border: none;
+        border-style: none;
+        overflow: hidden;
+    }
+
+    .save-i{
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 25px;
+        color: white;
+        
+    }
+
+    .save-i2{
+        position: absolute;
+        top: 5px;
+        left: 8px;
+        font-size: 22px;
+        background-color:rgba(0, 0, 0, 0);
+        display: none;
+    }
+
+    .end_game{
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0);
+        text-shadow: 0 0 200px blue ;
+
+    }
+
+    #myButton:disabled{
+        color: white;
+    }
+    #myButton:disabled:hover{
+        color: black;
+    }
+}
+
