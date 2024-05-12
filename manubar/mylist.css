@@ -172,7 +172,7 @@ p{
     
     li{
         padding-left: 0px;
-        font-size: 10px;
+        font-size: 1em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: white;
         float: left;
@@ -201,7 +201,7 @@ p{
         position: fixed;
         backdrop-filter: blur(8px);
         padding: 5px 0px 20px 0px;
-        width: 340px;
+        width: 27.5em;
         height: 50px;
         z-index: 1;
     }
@@ -239,7 +239,7 @@ p{
         position: relative;
         /* display: inline-block; */
         background-color: black;
-        width: 320px;
+        width: 27.5em;
 
         height: 1000000px;
         padding-top: 90px;
@@ -271,8 +271,8 @@ p{
     }
 
     .movie_l{
-        height: 150px;
-        width: 100px;
+        height: 7em;
+        width: 4.5em;
     
 
         margin-right: 10px;

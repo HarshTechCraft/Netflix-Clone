@@ -279,7 +279,7 @@ option{
     position: fixed;
     background-color: black;
     height: 100px;
-    width: 330px;
+    width: 27.5em;
     z-index: 10000;
     }
 
@@ -306,7 +306,7 @@ option{
         top: -65px;
         display: flex;
         color: white;
-        left: 150px;
+        left: 15em;
     }
 
     .join{
@@ -338,6 +338,7 @@ option{
         position: absolute;
         top: 80px;
         margin: 15px;
+        width: 25.5em;
     }
 
     .title{
@@ -439,7 +440,7 @@ option{
         background: linear-gradient(10deg, rgba(229, 9, 20, 0) 69%, rgb(229, 9, 20) 128%),#000;
         top: 700px;
         height: 300px;
-        width: 320px;
+        width: 27.5em;
     
     }
 

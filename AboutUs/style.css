@@ -358,7 +358,7 @@
     }
 
     .inner_logo{
-        padding: 0px 0px 0px 94px;
+        padding:0 0 0 10em;
         z-index: 1;
     }
 
@@ -447,13 +447,19 @@
     z-index: 100;
     }
 
+    .main{
+        width: 27.5em;
+    }
+
     .culture{
         margin-left: 0px;
+        width: 27.5em;
     }
 
     .culture-img>img{
         height: 350px;
-        width: 320px;
+        width: 27.5em;
+        margin-top: 2em;
         object-fit: cover;
     }
 
@@ -479,10 +485,12 @@
         position: absolute;
         background-color: white;
         height: 265px;
-        width: 280px;
-        top: -329px;
+        width: 21.5em;
+        top: -15em;
         left: 0px;
         z-index: 10;
+        margin-left: 1em;
+        margin-right: 1em;
         padding: 43px 20px 20px 20px;
     }
 
@@ -511,7 +519,8 @@
     }
     
     .squid {
-        width: 300px;
+        width: 20em;
+        margin-left: 2em;
         height: 232px;
         object-fit: cover;
     }
@@ -529,7 +538,7 @@
 
     .investor {
         display: flex;
-        width: 298px;
+        width: 26.5em;
         flex-direction: column;
         margin: 0px 0px 30px 0px;
     }
@@ -547,7 +556,7 @@
         background-size: cover;
         background-position: center center;
         height: 386px;
-        width: 320px;
+        width: 27.3em;
         top: 120px;
         object-fit: cover;
     }
@@ -588,12 +597,12 @@
     .end2>img{
         height: 76px;
         width: 138px;
-        margin: 0px 0px 0px 84px; 
+        margin-left: 9em; 
         display: block;
     }
 
     .end2>ul {
-        margin-left: 40px;
+        margin-left: 6em;
     }
 
     .end3{

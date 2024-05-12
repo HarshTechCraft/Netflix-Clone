@@ -132,8 +132,8 @@
 
     .container>img{
         position: absolute;
-        width: 320px;
-        height: 652px;
+        width: 27.6em;
+        height: 54em;
         object-fit: cover;
         opacity: 0.5;
 
@@ -144,6 +144,7 @@
         background-color: rgba(0, 0, 0, 0);
         display: flex;
         flex-direction: column;
+        width: 27.5em;
     }
 
     .inner_logo{
@@ -155,7 +156,7 @@
     }
 
     .signin_btn{
-        left: 200px;
+        left: 17em;
         height: 37px;
         width: 86px;
     }
@@ -189,7 +190,7 @@
         position: relative;
         top: 365px;
     left: 0px;
-    width: 300px;
+    width: 15.5em;
     height: 58px;
     font-size: 27px;
     border-bottom: 2px solid aqua;
@@ -205,7 +206,7 @@
         height: 44px;
         width: 230px;
         top: 375px;
-        left: 46px;
+        left: 3.5em;
         font-weight: 500;
         font-size: 31px;
     }
